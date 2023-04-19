@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "greatvibes";
+    src: url("greatvibes-regular-webfont.woff") format("woff2"), url("greatvibes-regular-webfont.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.form-select{
+    background-image: url(../assets/img/WedHug.jpeg)
+}
+
+
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/WedHug.jpeg");
+}
+
+header.masthead h1, header.masthead .h1 {
+    font-size: 150px;
+    font-family: "greatvibes"
+}
+
+hr.divider {
+    height: 0;
+    max-width: 3.25rem;
+    margin: .5rem auto;
+    background-color:mediumseagreen;
+    opacity: 1;
+  }
+
+ hr.masthead{
+    background-color: whitesmoke;
+ }
+
+ body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color:rgb(148, 197, 198);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  .btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: cadetblue;
+    --bs-btn-border-color: cadetblue;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: cadetblue;
+    --bs-btn-hover-border-color: cadetblue;
+    --bs-btn-focus-shadow-rgb: 246, 122, 88;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: cadetblue;
+    --bs-btn-active-border-color: cadetblue;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: cadetblue;
+    --bs-btn-disabled-border-color: cadetblue;
+  }
+
+  .bg-primary {
+    --bs-bg-opacity: 1;
+    background-color:rgb(39, 39, 50)
+  }
+
+
+.navbar-brand {
+  font-family: "greatvibes"
+  font-weight: 700;
+  color: #212529;
+}
+
+.mb-4{
+  font-size:x-large;
+}
+
+.itired{
+  font-size: 30px;
+  text-align: center;
+  font-family:unset;
+  color: beige;
+
+}
+
+.shrink{
+  padding: .01rem;
+  text-align: center;
+}
+
+.newsize {
+  font-size: 20px;
+}
+
+.ul{
+  color: beige;
+  text-align: left;
+}
+
+.ul{
+  
+}
